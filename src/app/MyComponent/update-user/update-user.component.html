@@ -1,0 +1,46 @@
+<form (ngSubmit)="updateUser()">
+<div class="container mt-4">
+  <h2 class="mb-4">Update User</h2>
+
+  <form (ngSubmit)="updateUser()" class="col-md-6">
+    <div class="form-group">
+      <label for="username">Username:</label>
+      <input type="text" id="username" [(ngModel)]="user.username" name="username" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="password">Password:</label>
+      <input type="password" id="password" [(ngModel)]="user.password" name="password" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="firstName">First Name:</label>
+      <input type="text" id="firstName" [(ngModel)]="user.firstName" name="firstName" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="lastName">Last Name:</label>
+      <input type="text" id="lastName" [(ngModel)]="user.lastName" name="lastName" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" [(ngModel)]="user.email" name="email" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="contact">Contact:</label>
+      <input type="text" id="contact" [(ngModel)]="user.contact" name="contact" class="form-control" required>
+    </div>
+
+    <div class="form-group">
+      <label for="isAdmin">Is Admin:</label>
+      <input type="checkbox" id="isAdmin" [(ngModel)]="user.isAdmin" name="isAdmin" class="form-control" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Update User</button>
+    <!-- <p>isAdmin value: {{ user.isAdmin }}</p> -->
+    <p>isAdmin value: {{ user.username }}</p>
+  </form>
+</div>
+</form>

@@ -1,0 +1,22 @@
+.home {
+    color: #ba0f0f; /* Change the text color to contrast with the background color */
+      padding: 100px 0;
+      text-align: center;
+      background-repeat: no-repeat; 
+      width: 100%;
+      background-position: center; 
+      height: 90vh; 
+    }
+    .homep{
+      color: aqua;
+    }
+    .bg-img {
+      background-image: url('/assets/image/QuizHomescreen.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover; /* Ensures the background image covers the entire container */
+      border: solid 1px;
+      height: 100%; /* Set the height to 100% to cover the entire screen */
+      width: 100%;
+    }
+    

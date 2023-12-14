@@ -1,0 +1,31 @@
+/* create-question.component.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .card-header h2 {
+    margin-bottom: 0;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .btn-success {
+    margin-top: 15px;
+  }
+  

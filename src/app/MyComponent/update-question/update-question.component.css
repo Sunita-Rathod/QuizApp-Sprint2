@@ -1,0 +1,38 @@
+/* update-question.component.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .card {
+    width: 70%;
+    margin: auto;
+  }
+  
+  .card-header {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Bootstrap success color */
+    color: white;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Darker shade on hover */
+  }
+  

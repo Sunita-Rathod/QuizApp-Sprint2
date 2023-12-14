@@ -1,0 +1,24 @@
+<!-- create-quiz.component.html -->
+
+<div class="create-quiz-container">
+    <h2>Create a Quiz</h2>
+    <form>
+      <div class="form-group">
+        <label for="quizTitle">Quiz Title:</label>
+        <input type="text" id="quizTitle" name="quizTitle" [(ngModel)]="quizTitle" class="form-control" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="quizCategory">Quiz Category:</label>
+        <input type="text" id="quizCategory" class="quizCategory" [(ngModel)]="quizCategory" class="form-control" required>
+      </div>
+  
+      <div class="form-group">
+        <label for="numQuestions">Number of Questions:</label>
+        <input type="number" id="numQuestions" class="numQuestions" [(ngModel)]="numQuestions" class="form-control" required>
+      </div>
+  
+      <button type="button" class="btn btn-primary" (click)="createQuiz()">Create Quiz</button>
+    </form>
+  </div>
+  

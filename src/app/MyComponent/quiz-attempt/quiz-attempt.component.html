@@ -1,0 +1,12 @@
+
+<br><br>
+<br>
+<br>
+<div *ngFor="let quizAttempt of quizAttempts">
+    <div>{{ quizAttempt.id }}</div>
+    <div>{{ quizAttempt.user.name }}</div>
+    <div>{{ quizAttempt.quiz.title }}</div>
+    <div>{{ quizAttempt.score }}</div>
+    <button (click)="deleteQuizAttempt(quizAttempt.id)">Delete</button>
+  </div>
+  
